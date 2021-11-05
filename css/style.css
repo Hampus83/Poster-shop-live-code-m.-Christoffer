@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Roboto:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-family: 'roboto', sans-serif;
+}
+
+h2, h3, p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* BUTTONS */
+
+.button {
+    appearance: none;
+    border: 1px solid #e83f57;
+    background-color: #e83f57;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-top: auto;
+
+}
+
+/* HEADER */
+
+.header-section {
+    min-height: 600px;
+    background-color: #3de07e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section .navigation {
+    align-self: flex-start;
+    margin: 2rem;
+}
+
+.header-section .title {
+    margin-top: auto;
+    font-size: 6rem;
+}
+
+.header-section .image {
+    margin-top: auto;
+}
+
+/* MAIN */
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards .wrapper {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+}
+
+.cards .wrapper .card {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.cards .wrapper .card h2 {
+    line-height: 140%;
+}
+
+.cards .wrapper .big-card {
+    max-width: 484px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .wrapper .big-card figure {
+    width: 100%;
+    margin: 0;
+}
+
+.cards .wrapper .big-card img {
+    width: 100%;
+}
+
+.cards .wrapper .big-card .button {
+    padding: 1rem 2rem;
+}
+
+
+/* FOOTER */
+
+.footer-section {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-section .footer-links {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-section .footer-links nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section .footer-links nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section .footer-links article p {
+    margin: 0;
+}
+
+.footer-section .footer-links .social-media .icon {
+    margin-right: 0.5rem;
+}
+
+
+
+
